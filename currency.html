@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <form action="">
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="1" name="" id="in" />
+        </div>
+        <div class="dropdwon">
+          <div class="from">
+            <p>From</p>
+            <div class="select_container">
+              <img src="https://flagsapi.com/US/flat/64.png" />
+              <select name="" id="">
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="BDT">BDT</option>
+              </select>
+            </div>
+          </div>
+          <div class="to">
+            <p>To</p>
+            <div class="select_container">
+              <img src="https://flagsapi.com/BD/flat/64.png" />
+              <select name="" id="">
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="BDT">BDT</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="msg"><p class="msg">1USD = 109BDT</p></div>
+        <button id="btn">Convert</button>
+      </form>
+    </div>
+    <script src="countrycode.js"></script>
+    <script src="currency.js"></script>
+  </body>
+</html>
